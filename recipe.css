@@ -28,19 +28,9 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #111113;
   }
   
   .active {
-    background-color: #04AA6D;
+    background-color: #FFC857;
   }
-  </style>
-  </head>
-  <body>
-  
-  <ul>
-    <li><a class="active" href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li style="float:right"><a href="#about">About</a></li>
-  </ul>
