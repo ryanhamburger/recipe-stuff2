@@ -36,3 +36,6 @@ li a:hover:not(.active) {
   background-color: #FFC857;
   color: black;
 }
+.dinner{
+  text-align: left;
+}
