@@ -21,7 +21,8 @@ h1, h2 {
   }
 
   ul {
-    text-align: center;
+    display: table;
+    margin: 0 auto;
   }
 
   li {
