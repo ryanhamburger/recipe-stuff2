@@ -8,6 +8,12 @@ margin:auto;
 display: block;
 }
 
+.newTite{
+  position: fixed;
+  margin-left: 1600px;
+ 
+}
+
 .uList {
   list-style-type: none;
   margin: 0;
