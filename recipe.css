@@ -20,6 +20,7 @@ display: block;
 }
 .everything 
 {
+  height: 950px;
   position: relative;
   top: -150px;
 }
@@ -136,4 +137,15 @@ p {
 .button
 {
 margin-left: 1860px;
+}
+@media screen and (max-width: 800px) 
+{
+  .breakfast, .lunchpos, .dinner 
+  {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+  }
 }
