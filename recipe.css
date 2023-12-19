@@ -167,16 +167,3 @@ p {
   background-color: #C80001; /* Add a dark red background on hover */
   transform: translateY(-20%);
 }
-
-#back-to-top::after {
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 50%;
-	width: 100%;
-	height: 200%;
-	transform: translateY(-30%);
-	background-color: rgba(0, 0, 0, 0);
-	display: block;
-}
-
