@@ -86,39 +86,21 @@ li a:hover:not(.active) {
 .breakfast 
 {
   position: relative;
-<<<<<<< HEAD
   left: -560px;
 }
-.lunch 
-{
-  
-=======
-  left: -620px;
-}
-.lunchpos
+.lunchpos 
 {
   position: relative;
   top: -752px;
->>>>>>> fdff0f43315fe6659367cef32cdc434d7d804430
 }
 .dinner 
 {
   position: relative;
   top: -1503px;
-<<<<<<< HEAD
   left: 560px;
-=======
-  left: 620px;
->>>>>>> fdff0f43315fe6659367cef32cdc434d7d804430
 }
 .divheight
 {
   height: 748px;
 }
-.breakBox2 {
-  width:600px;
-  display: block;
-  margin: auto;
-  background-color: #F6B357;
-  border: 2px solid black;
-}
+
