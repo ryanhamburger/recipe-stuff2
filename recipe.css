@@ -11,18 +11,9 @@ display: block;
 .newTite{
   position: fixed;
   margin-left: 1600px;
-  z-index: 100000;
+ 
 }
-.bronco
-{
-  position: relative;
-  top: 200px;
-}
-.everything 
-{
-  position: relative;
-  top: -150px;
-}
+
 .uList {
   list-style-type: none;
   margin: 0;
@@ -31,7 +22,6 @@ display: block;
   background-color: #333;
   position: fixed;
   top: 3px;
-  z-index: 100000;
 }
 
 .option {
@@ -78,28 +68,20 @@ li a:hover:not(.active) {
 }
 .breakfast 
 {
-  position: relative;
-  left: -620px;
-}
-.lunchpos
-{
-  position: relative;
-  top: -752px;
+  position: absolute;
+  left: 100px;
 }
 .dinner 
 {
-  position: relative;
-  top: -1503px;
-  left: 620px;
+  position: absolute;
+  top: 212px;
+  left: 1250px;
 }
 .divheight
 {
   height: 748px;
 }
-.breakBox2 {
-  width:600px;
-  display: block;
-  margin: auto;
-  background-color: #F6B357;
-  border: 2px solid black;
+
+p {
+  font-weight: bold;;
 }
