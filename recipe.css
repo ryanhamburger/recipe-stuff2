@@ -52,7 +52,8 @@ li a:hover:not(.active) {
 }
 
 .breakBox {
-  width: 100x;
-  height: 100;
+  width: 50x;
+  height: 10;
   background-color: chocolate;
+  border: 2px solid black;
 }
