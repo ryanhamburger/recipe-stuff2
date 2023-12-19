@@ -8,6 +8,12 @@ margin:auto;
 display: block;
 }
 
+.newTite{
+  position: fixed;
+  margin-left: 1600px;
+ 
+}
+
 .uList {
   list-style-type: none;
   margin: 0;
@@ -57,6 +63,6 @@ li a:hover:not(.active) {
   width:550px;
   display: block;
   margin: auto;
-  background-color: chocolate;
+  background-color: #F6B357;
   border: 2px solid black;
 }
