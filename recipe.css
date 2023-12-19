@@ -116,3 +116,6 @@ li a:hover:not(.active) {
     margin-top: 170px;
   }
 }
+p {
+  font-weight: bold;
+}
