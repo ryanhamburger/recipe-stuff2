@@ -66,3 +66,18 @@ li a:hover:not(.active) {
   background-color: #F6B357;
   border: 2px solid black;
 }
+.breakfast 
+{
+  position: absolute;
+  left: 100px;
+}
+.dinner 
+{
+  position: absolute;
+  top: 212px;
+  left: 1250px;
+}
+.divheight
+{
+  height: 748px;
+}
