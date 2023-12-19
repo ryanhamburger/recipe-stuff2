@@ -71,16 +71,27 @@ li a:hover:not(.active) {
   background-color: #F6B357;
   border: 2px solid black;
 }
+.breakBox2 {
+  width:550px;
+  display: block;
+  margin: auto;
+  background-color: #F6B357;
+  border: 2px solid black;
+}
 .breakfast 
 {
-  position: absolute;
-  left: 100px;
+  position: relative;
+  left: -560px;
+}
+.lunch 
+{
+  
 }
 .dinner 
 {
-  position: absolute;
-  top: 212px;
-  left: 1250px;
+  position: relative;
+  top: -1503px;
+  left: 560px;
 }
 .divheight
 {
