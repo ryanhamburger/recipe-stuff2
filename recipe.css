@@ -23,7 +23,12 @@ display: block;
   position: fixed;
   top: 3px;
 }
-
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
 .option {
   float: left;
   border-right:1px solid #bbb;
