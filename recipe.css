@@ -33,7 +33,12 @@ display: block;
   top: 3px;
   z-index: 100000;
 }
-
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
 .option {
   float: left;
   border-right:1px solid #bbb;
