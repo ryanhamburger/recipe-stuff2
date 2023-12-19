@@ -79,7 +79,7 @@ li a:hover:not(.active) {
 .breakfast 
 {
   position: relative;
-  left: -560px;
+  left: -620px;
 }
 .lunchpos
 {
@@ -90,9 +90,16 @@ li a:hover:not(.active) {
 {
   position: relative;
   top: -1503px;
-  left: 560px;
+  left: 620px;
 }
 .divheight
 {
   height: 748px;
+}
+.breakBox2 {
+  width:600px;
+  display: block;
+  margin: auto;
+  background-color: #F6B357;
+  border: 2px solid black;
 }
