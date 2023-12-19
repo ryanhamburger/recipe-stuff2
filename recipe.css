@@ -20,6 +20,7 @@ display: block;
 }
 .everything 
 {
+  height: 950px;
   position: relative;
   top: -150px;
 }
@@ -133,6 +134,17 @@ p {
     margin-left: -23px;
   }
 }
+@media screen and (max-width: 800px) 
+{
+  .breakfast, .lunchpos, .dinner 
+  {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+  }
+}
 
 #myBtn {
   display: none; /* Hidden by default */
@@ -167,3 +179,4 @@ p {
 	background-color: rgba(0, 0, 0, 0);
 	display: block;
 }
+
