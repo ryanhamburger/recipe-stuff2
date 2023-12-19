@@ -103,4 +103,16 @@ li a:hover:not(.active) {
 {
   height: 748px;
 }
-
+@media screen and (max-width: 800px) 
+{
+  .topnav a, li, ul{
+    float: none;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) 
+{
+   .everything {
+    margin-top: 170px;
+  }
+}
