@@ -108,8 +108,7 @@ li a:hover:not(.active) {
   .topnav a, li, ul{
     float: none;
     width: 100%;
-
-    margin-left: -15px;
+    
   }
 }
 @media screen and (max-width: 800px) 
@@ -123,7 +122,14 @@ p {
   font-weight: bold;
 }
 @media screen and (max-width: 800px) {
-  img {
+  img, .h111 {
     display: none;
+  }
+}
+@media screen and (max-width: 800px) 
+{
+   a
+  {
+    margin-left: -23px;
   }
 }
