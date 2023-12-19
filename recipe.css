@@ -134,10 +134,6 @@ p {
     margin-left: -23px;
   }
 }
-.button
-{
-margin-left: 1860px;
-}
 @media screen and (max-width: 800px) 
 {
   .breakfast, .lunchpos, .dinner 
