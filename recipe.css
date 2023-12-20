@@ -163,6 +163,10 @@ li a:hover:not(.active) {
   {
     margin-top: 300px;
   }
+  .dropDownFollow, #Recipes, #mealChoice
+  {
+    margin-top: 140px;
+  }
 }
 
 p {
