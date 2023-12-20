@@ -11,6 +11,7 @@ display: block;
 {
   position: fixed;
   top: 133px;
+  left: 1px;
 }
 
 .newTite{
