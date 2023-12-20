@@ -30,16 +30,3 @@ function Time()
   var p = document.getElementById("myId"); 
   p.innerHTML = newDate; 
 }
-
-function  time()
-{
-  let box = document.getElementById("time")
-
-  // create a new `Date` object
-  const now = new Date();
-
-  // get the current date and time as a string
-  const currentDateTime = now.toLocaleString();
-
-  box.innerHTML(currentDateTime); // output: "7/20/2021, 2:28:15 PM" (will vary depending on your time zone)
-}
