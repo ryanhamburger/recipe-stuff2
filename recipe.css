@@ -171,5 +171,11 @@ p {
 {
   position: fixed;
   top: 75px;
+  left: 230px;
+}
+#Recipes
+{
+  position: fixed;
+  top: 75px;
   left: 7px;
 }
