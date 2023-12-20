@@ -7,6 +7,11 @@ img {
 margin:auto;
 display: block;
 }
+.dropDownFollow
+{
+  position: fixed;
+  top: 133px;
+}
 
 .newTite{
   position: fixed;
