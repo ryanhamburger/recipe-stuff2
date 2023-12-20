@@ -81,7 +81,13 @@ ul, ol {
 li {
   font-weight: bold;
 }
+#mealChoice {
+ 
+}
 
+.button-42:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
 li a {
   display: block;
   color: white;
@@ -194,11 +200,99 @@ p {
   background-color: #C80001; /* Add a dark red background on hover */
   transform: translateY(-20%);
 }
+#mealChoice2
+{
+  top: 20px;
+  left: 96px;
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #F6B357);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 20px;
+  line-height: 20px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 10px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100px;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+}
+#mealChoice3
+{
+  top: 20px;
+  left: 100px;
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #F6B357);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 20px;
+  line-height: 20px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 10px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100px;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+}
 #mealChoice
 {
   position: fixed;
-  top: 75px;
-  left: 230px;
+  top: 20px;
+  left: 55px;
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #F6B357);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 20px;
+  line-height: 20px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 10px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100px;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
 }
 #Recipes
 {
@@ -206,3 +300,5 @@ p {
   top: 75px;
   left: 7px;
 }
+
+/* CSS */
