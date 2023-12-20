@@ -159,9 +159,9 @@ li a:hover:not(.active) {
     top: 0px;
     bottom: 0px;
   }
-  .everything2
+  .everythingBreakfast, .everythingLunch, .everythingDinner
   {
-    margin-top: 200px;
+    margin-top: 300px;
   }
 }
 
