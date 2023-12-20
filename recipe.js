@@ -29,4 +29,9 @@ function Time()
   var newDate = dd + "-" + mm + "-" +yyyy; 
   var p = document.getElementById("date"); 
   p.innerHTML = newDate; 
+
+  if (mm == 12 && dd == 21 ||mm == 12 && dd == 22 ||mm == 12 && dd == 23 ||mm == 12 && dd == 24 ||mm == 12 && dd == 25 )
+  {
+    document.body.style.backgroundImage = "linear-gradient(180deg, red, #00FF7F)";
+  }
 }
