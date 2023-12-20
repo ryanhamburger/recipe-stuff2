@@ -167,3 +167,9 @@ p {
   background-color: #C80001; /* Add a dark red background on hover */
   transform: translateY(-20%);
 }
+#mealChoice
+{
+  position: fixed;
+  top: 75px;
+  left: 7px;
+}
