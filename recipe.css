@@ -161,3 +161,9 @@ p {
   background-color: #C80001; /* Add a dark red background on hover */
   transform: translateY(-20%);
 }
+#outputBox 
+{
+  width: 200px;
+  height: 100px;
+  border: 2px solid black;
+}

@@ -20,3 +20,13 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+function Time()
+{
+  var date = new Date();
+  var dd = date.getDate(); 
+  var mm = date.getMonth() + 1; 
+  var yyyy = date.getFullYear(); 
+  var newDate = dd + "-" + mm + "-" +yyyy; 
+  var p = document.getElementById("myId"); 
+  p.innerHTML = newDate; 
+}
