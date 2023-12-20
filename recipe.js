@@ -42,52 +42,42 @@ function goToMeal()
   
   if (recipe.selectedIndex == 0)
   {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    location.href = "#"+"foodOne";
   }
   if (recipe.selectedIndex == 1)
   {
-    document.body.scrollTop = 550; // For Safari
-    document.documentElement.scrollTop = 550; // For Chrome, Firefox, IE and Opera
+    location.href = "#"+"foodTwo";
   }
   if (recipe.selectedIndex == 2)
   {
-    document.body.scrollTop = 1200; // For Safari
-    document.documentElement.scrollTop = 1200; // For Chrome, Firefox, IE and Opera
+    location.href = "#"+"foodThree";
   }
   if (recipe.selectedIndex == 3)
   {
-    document.body.scrollTop = 1850; // For Safari
-    document.documentElement.scrollTop = 1850; // For Chrome, Firefox, IE and Opera
+    location.href = "#"+"foodFour";
   }
   if (recipe.selectedIndex == 4)
   {
-    document.body.scrollTop = 2450; // For Safari
-    document.documentElement.scrollTop = 2450; // For Chrome, Firefox, IE and Opera
+    location.href = "#"+"foodFive";
   }
   if (recipe.selectedIndex == 5)
   {
-    document.body.scrollTop = 3050; // For Safari
-    document.documentElement.scrollTop = 3050; // For Chrome, Firefox, IE and Opera
+    location.href = "#"+"foodSix";
   }
   if (recipe.selectedIndex == 6)
   {
-    document.body.scrollTop = 3700; // For Safari
-    document.documentElement.scrollTop = 3700; // For Chrome, Firefox, IE and Opera
+    location.href = "#"+"foodSeven";
   }
   if (recipe.selectedIndex == 7)
   {
-    document.body.scrollTop = 4350; // For Safari
-    document.documentElement.scrollTop = 4350; // For Chrome, Firefox, IE and Opera
+    location.href = "#"+"foodEight";
   }
   if (recipe.selectedIndex == 8)
   {
-    document.body.scrollTop = 5000; // For Safari
-    document.documentElement.scrollTop = 5000; // For Chrome, Firefox, IE and Opera
+    location.href = "#"+"foodNine";
   }
   if (recipe.selectedIndex == 9)
   {
-    document.body.scrollTop = 5600; // For Safari
-    document.documentElement.scrollTop = 5600; // For Chrome, Firefox, IE and Opera
+    location.href = "#"+"foodTen";
   }
 }
