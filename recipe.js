@@ -27,6 +27,6 @@ function Time()
   var mm = date.getMonth() + 1; 
   var yyyy = date.getFullYear(); 
   var newDate = dd + "-" + mm + "-" +yyyy; 
-  var p = document.getElementById("myId"); 
+  var p = document.getElementById("date"); 
   p.innerHTML = newDate; 
 }
