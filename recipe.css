@@ -20,9 +20,9 @@ display: block;
 }
 .everything 
 {
-  height: 1000px;
+  height: 990px;
   position: relative;
-  top: -150px;
+  top: 0px;
 }
 .uList {
   list-style-type: none;
