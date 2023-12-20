@@ -161,3 +161,7 @@ p {
   background-color: #C80001; /* Add a dark red background on hover */
   transform: translateY(-20%);
 }
+
+#time {
+  color: none;
+}
