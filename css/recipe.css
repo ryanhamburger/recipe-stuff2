@@ -42,10 +42,15 @@ img {
 margin:auto;
 display: block;
 }
-.dropDownFollow
+#Recipes
 {
   position: fixed;
-  top: 54px;
+  margin-top: 25px;
+  left: 8px;
+}
+.dropDownFollow{ 
+  position: fixed;
+  top: 80px;
   left: 8px;
 }
 #tabs{
@@ -341,9 +346,12 @@ p {
   {
     margin-top: 300px;
   }
-  .dropDownFollow, #Recipes
+  #Recipes{
+    margin-top: 152px;
+  }
+  .dropDownFollow
   {
-    margin-top: 140px;
+    margin-top: 127px;
   }
 }
 #mealChoice, #mealChoice2, #mealChoice3{
