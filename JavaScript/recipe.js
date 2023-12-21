@@ -90,3 +90,6 @@ function goToMeal()
     location.href = "#"+"foodTen";
   }
 }
+function raise() {
+  
+}
