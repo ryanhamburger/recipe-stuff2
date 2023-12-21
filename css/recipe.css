@@ -16,7 +16,7 @@ display: block;
 
 .newTite{
   position: fixed;
-  margin-left: 1600px;
+  margin-left: 1650px;
   z-index: 100000;
 }
 .logoRelative
@@ -135,41 +135,6 @@ li a:hover:not(.active) {
 .divheight
 {
   height: 748px;
-}
-@media screen and (max-width: 800px) 
-{
-  .topnav a, li, ul{
-    float: none;
-    width: 100%;
-    
-  }
-  .everything 
-  {
-    margin-top: 345px;
-  }
-  img, .h111 {
-    display: none;
-  }
-  a
-  {
-    margin-left: -23px;
-  }
-  .breakfast, .lunchpos, .dinner 
-  {
-    position: relative;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-  }
-  .everythingBreakfast, .everythingLunch, .everythingDinner
-  {
-    margin-top: 300px;
-  }
-  .dropDownFollow, #Recipes, #mealChoice
-  {
-    margin-top: 140px;
-  }
 }
 
 p {
@@ -296,6 +261,94 @@ p {
   position: fixed;
   top: 75px;
   left: 7px;
-}
+}@media screen and (max-width: 1775px){
+  .logoRelative{
+    display: none;
+  }
+  .bronco 
+    {
+      position: relative;
+      top: 150px;
+      left: -130px;
+    }
+  #breakfast, #lunchpos, #dinner 
+  {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+  }
+  .topnav a, li, ul{
+    float: none;
+    width: 100%;
+    
+  }
+  .everything 
+  {
+    top: 0px;
+  }
+  img{
+    width: 200px;
+  }
+  .h111{
+    display: none;
+  }
+  a
+  {
+    margin-left: -23px;
+  }
 
-/* CSS */
+  .everythingBreakfast, .everythingLunch, .everythingDinner
+  {
+    margin-top: 300px;
+  }
+  .dropDownFollow, #Recipes
+  {
+    margin-top: 140px;
+  }
+}
+#mealChoice, #mealChoice2, #mealChoice3{
+  top: 20px;
+}
+@media screen and (max-width: 1736px)
+{
+  .bronco 
+    {
+      position: relative;
+      top: 150px;
+      left: -300px;
+    }
+}
+@media screen and (max-width: 1576px)
+{
+  .bronco 
+    {
+      position: relative;
+      top: 150px;
+      left: -400px;
+    }
+}
+@media screen and (max-width: 1526px)
+{
+  .bronco 
+    {
+      display: none;
+    }
+}
+@media screen and (max-width: 1526px)
+{
+  .everything
+    {
+      top: 200px;
+    }
+
+}
+@media screen and (max-width: 1526px)
+{
+  .everything
+    {
+      top: 200px;
+    }
+
+}
