@@ -91,5 +91,18 @@ function goToMeal()
   }
 }
 function raise() {
-  
+  // Get the tab element by its ID
+  var tab = document.getElementById("tabs");
+
+  // Check if the tab element exists
+  if (tab) {
+    // Toggle the visibility by changing the display property
+    if (tab.style.display == "none") {
+      // If currently hidden, make it visible
+      tab.style.display = "block";
+    } else {
+      // If currently visible, hide it
+      tab.style.display = "none";
+    }
+  }
 }

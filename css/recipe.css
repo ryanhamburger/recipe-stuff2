@@ -3,8 +3,6 @@ h1, h2, h3, p{
   font-family: Arial, Helvetica, sans-serif;
 }
 #btnRaise{
-  display: none;
-
   background-color: initial;
   background-image: linear-gradient(-180deg, #FF7E31, #F6B357);
   border-radius: 6px;
@@ -50,11 +48,13 @@ display: block;
   top: 54px;
   left: 8px;
 }
-
+#tabs{
+  z-index: 2;
+}
 .newTite{
   position: fixed;
   margin-left: 1650px;
-  z-index: 100000;
+  z-index: 1;
 }
 .logoRelative
 {
@@ -298,9 +298,13 @@ p {
   position: fixed;
   top: 75px;
   left: 7px;
-}@media screen and (max-width: 1775px){
+}
+@media screen and (max-width: 1775px){
   .logoRelative{
     display: none;
+  }
+  #btnRaise {
+    top: 190px;
   }
   .bronco 
     {
