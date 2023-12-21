@@ -5,7 +5,7 @@ window.onload = function() {
   Time();
   mybutton = document.getElementById("myBtn");
     
-  // When the user scrolls down 60px from the top of the document, show the button
+  // When the user scrolls down 200px from the top of the document, show the button
   window.onscroll = function() {scrollFunction()};
 }
 
@@ -27,6 +27,8 @@ function topFunction() {
 
 function Time()
 {
+
+  //getting the date
   var date = new Date();
   var dd = date.getDate(); 
   var mm = date.getMonth() + 1; 
@@ -35,6 +37,7 @@ function Time()
   var p = document.getElementById("date"); 
   p.innerHTML = newDate; 
   
+  // if its december, and from the days 21-25, make the background a gradient of red and green
   if (mm == 12 && dd == 21 ||mm == 12 && dd == 22 ||mm == 12 && dd == 23 ||mm == 12 && dd == 24 ||mm == 12 && dd == 25 )
   {
     document.body.style.backgroundImage = "linear-gradient(180deg, red, #00FF7F)";
@@ -45,6 +48,7 @@ function goToMeal()
 {
   let recipe = document.getElementById("Recipes");
   
+  // depending on which option was chosen in the dropbox, go to the anchor assigned to that meal
   if (recipe.selectedIndex == 0)
   {
     location.href = "#"+"foodOne";
